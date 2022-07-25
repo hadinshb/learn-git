@@ -380,7 +380,7 @@ const submitSingleQuestion = () => {
 
     let Choice = document.getElementById('multiChoice').value;
    
-    if (Choice!='Select...' ){
+    if (Choice!='null' ){
        
         SubmitData(Choice)
     }
