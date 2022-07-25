@@ -376,6 +376,20 @@ const submitMultipleQuestion = () => {
 
 
 
+const submitSingleQuestion = () => {
+
+    let Choice = document.getElementById('multiChoice').value;
+   
+    if (Choice!='Select...' ){
+       
+        SubmitData(Choice)
+    }
+    else {
+        alert("Fill the Answer...")
+    }
+}
+
+
 
 
 
